@@ -1,0 +1,8 @@
+body {
+  font-family: jetbrains-mono, monospace;
+  font-size: 30px;
+}
+
+h1 {
+  color: var(--primary);
+}
