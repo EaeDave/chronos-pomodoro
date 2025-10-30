@@ -7,6 +7,5 @@ createRoot(document.getElementById('root')!).render(
   // Roda duas vezes em modo StrictMode, para ajudar a identificar efeitos colaterais
   <StrictMode>
     <App />
-    <App />
   </StrictMode>,
 );
