@@ -5,6 +5,7 @@
 import './styles/theme.css';
 import './styles/global.css';
 import { Heading } from './components/Heading';
+import { TimerIcon } from 'lucide-react';
 
 export function App() {
   console.log('Teste');
@@ -12,12 +13,13 @@ export function App() {
     // React Fragment
     <>
       {/* Componente Olá, Mundo! */}
-      <Heading attr={1234} attr2='String'>
-        Olá, Mundo 1
+      <Heading>
+        Olá, Mundo 1{' '}
+        <button>
+          <TimerIcon />
+        </button>
       </Heading>
-      <Heading>Olá, Mundo 2</Heading>
-      <Heading>Olá, Mundo 3</Heading>
-      <Heading>Olá, Mundo 4</Heading>
+
       <p>Lorem ipsum dolor sit amet.</p>
     </>
   );
