@@ -12,7 +12,12 @@ export function App() {
     // React Fragment
     <>
       {/* Componente Olá, Mundo! */}
-      <Heading />
+      <Heading attr={1234} attr2='String'>
+        Olá, Mundo 1
+      </Heading>
+      <Heading>Olá, Mundo 2</Heading>
+      <Heading>Olá, Mundo 3</Heading>
+      <Heading>Olá, Mundo 4</Heading>
       <p>Lorem ipsum dolor sit amet.</p>
     </>
   );
